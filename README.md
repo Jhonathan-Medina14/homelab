@@ -1,6 +1,6 @@
 # HomeLab — GMKtec M5 Ultra
 
-Proyecto personal de infraestructura de laboratorio casero sobre **Proxmox VE**, orientado al autoalojamiento de servicios, aprendizaje de virtualización, redes, Docker y despliegue seguro de aplicaciones web.
+Proyecto personal de infraestructura de laboratorio casera sobre **Proxmox VE**, orientado al autoalojamiento de servicios, aprendizaje de virtualización, redes, Docker y despliegue seguro de aplicaciones web.
 
 > Documentación viva: cada fase, decisión técnica y problema resuelto queda registrado aquí como evidencia de aprendizaje y portafolio profesional.
 
@@ -79,13 +79,13 @@ Construir desde cero un entorno de producción casero que autoaloje mis servicio
 
 ## Documentación
 
-- [docs/01-planificacion-y-hardware.md](docs/01-planificacion-y-hardware.md) — Decisión del hardware, justificación de recursos y plan de red
-- `docs/02-instalacion-proxmox.md` — *(próximamente)*
-- `docs/03-vm-principal.md` — *(próximamente)*
-- `docs/04-vm-expuesta.md` — *(próximamente)*
-- `docs/05-vm-pruebas-y-monitoreo.md` — *(próximamente)*
-- `docs/06-backups.md` — *(próximamente)*
-- `docs/07-problemas-y-soluciones.md` — *(bitácora de errores y aprendizajes)*
+- [docs/01-planificacion-y-hardware.md](docs/01-planificacion-y-hardware.md) — Decisión del hardware, justificación de recursos y plan de red ✅
+- [docs/02-instalacion-proxmox.md](docs/02-instalacion-proxmox.md) — Respaldo de Windows, prueba en vivo e instalación de Proxmox
+- [docs/03-vm-principal.md](docs/03-vm-principal.md) — VM de servicios privados (Immich, Vaultwarden, Docker)
+- [docs/04-vm-expuesta.md](docs/04-vm-expuesta.md) — VM pública (Nginx Proxy Manager, SSL, hardening)
+- [docs/05-vm-pruebas-y-monitoreo.md](docs/05-vm-pruebas-y-monitoreo.md) — IA, Grafana/Prometheus y zona de experimentos
+- [docs/06-backups.md](docs/06-backups.md) — Estrategia de respaldos y prueba de restauración
+- [docs/07-problemas-y-soluciones.md](docs/07-problemas-y-soluciones.md) — Bitácora consolidada de errores y diagnósticos
 
 ## Lo aprendido hasta ahora
 
